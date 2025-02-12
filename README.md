@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0011-container-with-most-water) |
 | [0347-top-k-frequent-elements](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0347-top-k-frequent-elements) |
 ## Hash Table
 |  |
@@ -35,4 +36,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0347-top-k-frequent-elements) |
+## Two Pointers
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0011-container-with-most-water) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->

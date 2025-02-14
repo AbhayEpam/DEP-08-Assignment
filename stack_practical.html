@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Navigation</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        button { margin: 5px; padding: 10px; font-size: 16px; }
+        input { padding: 5px; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <h1>Browser Navigation Simulation</h1>
+    <input type="text" id="pageInput" placeholder="Enter page URL or name">
+    <button onclick="visitPage()">Visit Page</button>
+    <button onclick="goBack()">Back</button>
+    <button onclick="goForward()">Forward</button>
+    <p id="currentPage">Current Page: None</p>
+
+    <script>
+        class BrowserHistory {
+            constructor() {
+                this.backStack = [];
+                this.forwardStack = [];
+                this.currentPage = null;
+            }
+
+            visit(page) {
+                if (this.currentPage !== null) {
+                    this.backStack.push(this.currentPage);
+                }
+                this.currentPage = page;
+                this.forwardStack = [];
+                this.updateDisplay();
+            }
+
+            back() {
+                if (this.backStack.length === 0) {
+                    alert("No pages in back history");
+                    return;
+                }
+                this.forwardStack.push(this.currentPage);
+                this.currentPage = this.backStack.pop();
+                this.updateDisplay();
+            }
+
+            forward() {
+                if (this.forwardStack.length === 0) {
+                    alert("No pages in forward history");
+                    return;
+                }
+                this.backStack.push(this.currentPage);
+                this.currentPage = this.forwardStack.pop();
+                this.updateDisplay();
+            }
+
+            updateDisplay() {
+                document.getElementById("currentPage").innerText = `Current Page: ${this.currentPage}`;
+            }
+        }
+
+        const browser = new BrowserHistory();
+
+        function visitPage() {
+            const pageInput = document.getElementById("pageInput").value.trim();
+            if (pageInput) {
+                browser.visit(pageInput);
+                document.getElementById("pageInput").value = "";
+            } else {
+                alert("Please enter a page name or URL");
+            }
+        }
+
+        function goBack() {
+            browser.back();
+        }
+
+        function goForward() {
+            browser.forward();
+        }
+    </script>
+</body>
+</html>

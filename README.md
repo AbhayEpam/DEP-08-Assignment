@@ -50,6 +50,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0125-valid-palindrome) |
 | [0500-keyboard-row](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0500-keyboard-row) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->

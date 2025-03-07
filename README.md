@@ -52,9 +52,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0014-longest-common-prefix) |
 | [0125-valid-palindrome](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0131-palindrome-partitioning) |
 | [0500-keyboard-row](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0500-keyboard-row) |
 ## Trie
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0014-longest-common-prefix) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0131-palindrome-partitioning) |
+## Backtracking
+|  |
+| ------- |
+| [0131-palindrome-partitioning](https://github.com/AbhayEpam/DEP-08-Assignment/tree/master/0131-palindrome-partitioning) |
 <!---LeetCode Topics End-->
